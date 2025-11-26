@@ -1,0 +1,101 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+@layer base {
+  .font-khmer {
+    font-family: var(--font-khmer-os), "Khmer OS", "Moul", "Hanuman",
+      "Battambang", "Kantumruy", system-ui, sans-serif;
+  }
+
+  .font-khmer-heading {
+    font-family: var(--font-moul), "Moul", var(--font-khmer-os), "Khmer OS",
+      "Hanuman", system-ui, sans-serif;
+  }
+
+  .font-khmer-content {
+    font-family: var(--font-khmer-os), "Khmer OS", var(--font-hanuman),
+      "Hanuman", "Battambang", system-ui, sans-serif;
+  }
+
+  html {
+    font-family: var(--font-khmer-os), "Khmer OS", "Hanuman", "Battambang",
+      "Kantumruy", system-ui, sans-serif;
+  }
+
+  * {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .khmer-text {
+    line-height: 1.8;
+    letter-spacing: 0.02em;
+    word-spacing: 0.1em;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-moul), "Moul", var(--font-khmer-os), "Khmer OS",
+      system-ui, sans-serif;
+    font-weight: normal;
+    line-height: 1.4;
+  }
+
+  p {
+    line-height: 1.8;
+  }
+}
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+  font-family: var(--font-khmer-os), "Khmer OS", "Hanuman", "Battambang",
+    "Kantumruy", system-ui, sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+@media print {
+  body {
+    font-family: "Khmer OS", "Hanuman", "Battambang", serif;
+  }
+}
