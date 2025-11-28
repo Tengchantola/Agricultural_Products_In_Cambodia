@@ -14,7 +14,7 @@ export default function AboutPage() {
           </p>
         </div>
 
-        <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 mb-8">
+        <div className="bg-white dark:bg-gray-700 rounded-lg shadow-lg p-8 mb-8">
           <div className="text-center mb-8">
             <div className="w-20 h-20 bg-green-100 dark:bg-green-900 rounded-full flex items-center justify-center mx-auto mb-4">
               <svg
@@ -50,7 +50,7 @@ export default function AboutPage() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+          <div className="bg-white dark:bg-gray-700 rounded-lg shadow p-6">
             <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-lg flex items-center justify-center mb-4">
               <svg
                 className="w-6 h-6 text-blue-600 dark:text-blue-400"
@@ -75,7 +75,7 @@ export default function AboutPage() {
             </p>
           </div>
 
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+          <div className="bg-white dark:bg-gray-700 rounded-lg shadow p-6">
             <div className="w-12 h-12 bg-green-100 dark:bg-green-900 rounded-lg flex items-center justify-center mb-4">
               <svg
                 className="w-6 h-6 text-green-600 dark:text-green-400"
@@ -100,7 +100,7 @@ export default function AboutPage() {
             </p>
           </div>
 
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+          <div className="bg-white dark:bg-gray-700 rounded-lg shadow p-6">
             <div className="w-12 h-12 bg-orange-100 dark:bg-orange-900 rounded-lg flex items-center justify-center mb-4">
               <svg
                 className="w-6 h-6 text-orange-600 dark:text-orange-400"
@@ -125,7 +125,7 @@ export default function AboutPage() {
             </p>
           </div>
 
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+          <div className="bg-white dark:bg-gray-700 rounded-lg shadow p-6">
             <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900 rounded-lg flex items-center justify-center mb-4">
               <svg
                 className="w-6 h-6 text-purple-600 dark:text-purple-400"
@@ -151,7 +151,7 @@ export default function AboutPage() {
           </div>
         </div>
 
-        <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8">
+        <div className="bg-white dark:bg-gray-700 rounded-lg shadow-lg p-8">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white text-center mb-8 font-khmer-heading">
             ក្រុមការងាររបស់យើង
           </h2>

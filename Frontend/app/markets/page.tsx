@@ -107,7 +107,7 @@ export default function MarketsPage() {
             <div className="w-20"></div>
           </div>
 
-          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 mb-8">
+          <div className="bg-white dark:bg-gray-700 rounded-xl shadow-lg p-6 mb-8">
             <div className="flex items-center justify-between">
               <div>
                 <h2 className="text-2xl font-bold text-gray-900 dark:text-white font-khmer-heading mb-2">
@@ -141,7 +141,7 @@ export default function MarketsPage() {
             {marketProducts.map((product: MarketPrice, index: number) => (
               <div
                 key={product.PriceID}
-                className="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow p-6"
+                className="bg-white dark:bg-gray-700 rounded-lg shadow-md hover:shadow-lg transition-shadow p-6"
               >
                 <div className="flex justify-between items-start mb-4">
                   <div>
@@ -187,7 +187,7 @@ export default function MarketsPage() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6 text-center">
+          <div className="bg-white dark:bg-gray-700 rounded-lg shadow p-6 text-center">
             <div className="text-lg text-gray-600 dark:text-gray-400 font-khmer-content">
               ចំនួនទីផ្សារ
             </div>
@@ -195,7 +195,7 @@ export default function MarketsPage() {
               {Object.keys(marketData).length}
             </div>
           </div>
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6 text-center">
+          <div className="bg-white dark:bg-gray-700 rounded-lg shadow p-6 text-center">
             <div className="text-lg text-gray-600 dark:text-gray-400 font-khmer-content">
               ចំនួនតម្លៃសរុប
             </div>
@@ -203,7 +203,7 @@ export default function MarketsPage() {
               {formatPrice(totalPrice)}
             </div>
           </div>
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6 text-center">
+          <div className="bg-white dark:bg-gray-700 rounded-lg shadow p-6 text-center">
             <div className="text-lg text-gray-600 dark:text-gray-400 font-khmer-content">
               ប្រភេទផលិតផល
             </div>
@@ -232,7 +232,7 @@ export default function MarketsPage() {
               ([marketName, data]: [string, MarketData]) => (
                 <div
                   key={marketName}
-                  className="bg-white dark:bg-gray-800 rounded-lg shadow-lg hover:shadow-xl transition-shadow p-6"
+                  className="bg-white dark:bg-gray-700 rounded-lg shadow-lg hover:shadow-xl transition-shadow p-6"
                 >
                   <div className="flex items-center justify-between mb-4">
                     <h3 className="text-xl font-semibold text-gray-900 dark:text-white font-khmer-content">
@@ -290,7 +290,7 @@ export default function MarketsPage() {
           </div>
         )}
 
-        <div className="mt-12 bg-white dark:bg-gray-800 rounded-lg shadow p-8">
+        <div className="mt-12 bg-white dark:bg-gray-700 rounded-lg shadow p-8">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white text-center mb-6 font-khmer-heading">
             ទីតាំងទីផ្សារ
           </h2>

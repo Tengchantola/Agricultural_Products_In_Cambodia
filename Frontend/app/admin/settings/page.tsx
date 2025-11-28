@@ -220,7 +220,7 @@ export default function SettingsPage() {
         </div>
       )}
 
-      <div className="bg-white dark:bg-gray-800 rounded-lg shadow mb-6">
+      <div className="bg-white dark:bg-gray-700 rounded-lg shadow mb-6">
         <div className="border-b border-gray-200 dark:border-gray-700">
           <nav className="flex -mb-px overflow-x-auto">
             {tabs.map((tab) => (
@@ -246,7 +246,7 @@ export default function SettingsPage() {
         </div>
       </div>
 
-      <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+      <div className="bg-white dark:bg-gray-700 rounded-lg shadow p-6">
         {activeTab === "system" && systemSettings && (
           <div className="space-y-6">
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white font-khmer-heading">

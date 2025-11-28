@@ -154,7 +154,7 @@ export default function AdminUsersPage() {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-6">
-        <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4">
+        <div className="bg-white dark:bg-gray-700 rounded-lg shadow p-4">
           <div className="flex items-center">
             <div className="p-2 bg-blue-100 dark:bg-blue-900 rounded-lg">
               <Users className="w-6 h-6 text-blue-600 dark:text-blue-400" />
@@ -169,7 +169,7 @@ export default function AdminUsersPage() {
             </div>
           </div>
         </div>
-        <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4">
+        <div className="bg-white dark:bg-gray-700 rounded-lg shadow p-4">
           <div className="flex items-center">
             <div className="p-2 bg-green-100 dark:bg-green-900 rounded-lg">
               <Users className="w-6 h-6 text-green-600 dark:text-green-400" />
@@ -184,7 +184,7 @@ export default function AdminUsersPage() {
             </div>
           </div>
         </div>
-        <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4">
+        <div className="bg-white dark:bg-gray-700 rounded-lg shadow p-4">
           <div className="flex items-center">
             <div className="p-2 bg-red-100 dark:bg-red-900 rounded-lg">
               <Users className="w-6 h-6 text-red-600 dark:text-red-400" />
@@ -199,7 +199,7 @@ export default function AdminUsersPage() {
             </div>
           </div>
         </div>
-        <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4">
+        <div className="bg-white dark:bg-gray-700 rounded-lg shadow p-4">
           <div className="flex items-center">
             <div className="p-2 bg-purple-100 dark:bg-purple-900 rounded-lg">
               <Users className="w-6 h-6 text-purple-600 dark:text-purple-400" />
@@ -216,7 +216,7 @@ export default function AdminUsersPage() {
         </div>
       </div>
 
-      <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6 mb-6">
+      <div className="bg-white dark:bg-gray-700 rounded-lg shadow p-6 mb-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
             <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2 font-khmer-content">
@@ -270,7 +270,7 @@ export default function AdminUsersPage() {
         />
       )}
 
-      <div className="bg-white dark:bg-gray-800 rounded-lg shadow overflow-hidden">
+      <div className="bg-white dark:bg-gray-700 rounded-lg shadow overflow-hidden">
         {currentUsers.length === 0 ? (
           <div className="text-center py-12">
             <Users className="w-12 h-12 text-gray-400 mx-auto mb-4" />
@@ -306,7 +306,7 @@ export default function AdminUsersPage() {
                     </th>
                   </tr>
                 </thead>
-                <tbody className="bg-white dark:bg-gray-800 divide-y divide-gray-200 dark:divide-gray-700">
+                <tbody className="bg-white dark:bg-gray-700 divide-y divide-gray-200 dark:divide-gray-700">
                   {currentUsers.map((user, index) => (
                     <tr
                       key={user.id}
@@ -372,7 +372,7 @@ export default function AdminUsersPage() {
             </div>
 
             {totalPages >= 1 && (
-              <div className="bg-white dark:bg-gray-800 px-6 py-4 border-t border-gray-200 dark:border-gray-700">
+              <div className="bg-white dark:bg-gray-700 px-6 py-4 border-t border-gray-200 dark:border-gray-700">
                 <div className="flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
                   <p className="text-sm text-gray-700 dark:text-gray-300 font-khmer-content">
                     បានបង្ហាញ {currentUsers.length} នៃ {filteredUsers.length}{" "}

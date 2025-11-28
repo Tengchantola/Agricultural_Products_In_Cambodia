@@ -85,7 +85,7 @@ export default function AdminDashboard() {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
-        <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+        <div className="bg-white dark:bg-gray-700 rounded-lg shadow p-6">
           <div className="flex items-center">
             <div className="p-3 bg-blue-100 dark:bg-blue-900 rounded-lg">
               <CircleDollarSign className="text-blue-600" />
@@ -101,7 +101,7 @@ export default function AdminDashboard() {
           </div>
         </div>
 
-        <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+        <div className="bg-white dark:bg-gray-700 rounded-lg shadow p-6">
           <div className="flex items-center">
             <div className="p-3 bg-green-100 dark:bg-green-900 rounded-lg">
               <Package className="text-green-600" />
@@ -117,7 +117,7 @@ export default function AdminDashboard() {
           </div>
         </div>
 
-        <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+        <div className="bg-white dark:bg-gray-700 rounded-lg shadow p-6">
           <div className="flex items-center">
             <div className="p-3 bg-orange-100 dark:bg-orange-900 rounded-lg">
               <Store className="text-orange-600" />
@@ -133,7 +133,7 @@ export default function AdminDashboard() {
           </div>
         </div>
 
-        <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+        <div className="bg-white dark:bg-gray-700 rounded-lg shadow p-6">
           <div className="flex items-center">
             <div className="p-3 bg-purple-100 dark:bg-purple-900 rounded-lg">
               <RefreshCw className="text-purple-600" />
