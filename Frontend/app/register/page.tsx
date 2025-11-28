@@ -107,7 +107,7 @@ export default function RegisterPage() {
         </div>
 
         <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
-          <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-8 space-y-6">
+          <div className="bg-white dark:bg-gray-700 rounded-2xl shadow-lg p-8 space-y-6">
             {error && (
               <Alert
                 type="error"

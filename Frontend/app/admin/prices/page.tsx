@@ -260,7 +260,7 @@ export default function PriceManagement() {
 
       {/* Stats Cards */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-6">
-        <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4">
+        <div className="bg-white dark:bg-gray-700 rounded-lg shadow p-4">
           <div className="flex items-center">
             <div className="p-2 bg-purple-100 dark:bg-purple-900 rounded-lg">
               <CircleDollarSign className="w-6 h-6 text-purple-600 dark:text-purple-400" />
@@ -275,7 +275,7 @@ export default function PriceManagement() {
             </div>
           </div>
         </div>
-        <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4">
+        <div className="bg-white dark:bg-gray-700 rounded-lg shadow p-4">
           <div className="flex items-center">
             <div className="p-2 bg-green-100 dark:bg-green-900 rounded-lg">
               <Package className="w-6 h-6 text-green-600 dark:text-green-400" />
@@ -290,7 +290,7 @@ export default function PriceManagement() {
             </div>
           </div>
         </div>
-        <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4">
+        <div className="bg-white dark:bg-gray-700 rounded-lg shadow p-4">
           <div className="flex items-center">
             <div className="p-2 bg-blue-100 dark:bg-blue-900 rounded-lg">
               <Store className="w-6 h-6 text-blue-600 dark:text-blue-400" />
@@ -305,7 +305,7 @@ export default function PriceManagement() {
             </div>
           </div>
         </div>
-        <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4">
+        <div className="bg-white dark:bg-gray-700 rounded-lg shadow p-4">
           <div className="flex items-center">
             <div className="p-2 bg-orange-100 dark:bg-orange-900 rounded-lg">
               <RefreshCw className="w-6 h-6 text-orange-600 dark:text-orange-400" />
@@ -322,7 +322,7 @@ export default function PriceManagement() {
         </div>
       </div>
 
-      <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6 mb-6">
+      <div className="bg-white dark:bg-gray-700 rounded-lg shadow p-6 mb-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4 border-gray-200 dark:border-gray-700">
           <div>
             <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2 font-khmer-content">
@@ -398,7 +398,7 @@ export default function PriceManagement() {
       </div>
 
       {(showAddForm || editingPrice) && (
-        <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6 mb-6">
+        <div className="bg-white dark:bg-gray-700 rounded-lg shadow p-6 mb-6">
           <div className="flex justify-between items-center mb-4">
             <h2 className="text-lg font-semibold text-gray-900 dark:text-white font-khmer-heading">
               {editingPrice ? "កែសម្រួលតម្លៃ" : "បង្កើតតម្លៃថ្មី"}
@@ -541,7 +541,7 @@ export default function PriceManagement() {
         />
       )}
 
-      <div className="bg-white dark:bg-gray-800 rounded-lg shadow overflow-hidden">
+      <div className="bg-white dark:bg-gray-700 rounded-lg shadow overflow-hidden">
         {currentPrices.length === 0 ? (
           <div className="text-center py-12">
             <Package className="w-12 h-12 text-gray-400 mx-auto mb-4" />
@@ -586,7 +586,7 @@ export default function PriceManagement() {
                     </th>
                   </tr>
                 </thead>
-                <tbody className="bg-white dark:bg-gray-800 divide-y divide-gray-200 dark:divide-gray-700">
+                <tbody className="bg-white dark:bg-gray-700 divide-y divide-gray-200 dark:divide-gray-700">
                   {currentPrices.map((price, index) => (
                     <tr
                       key={price.PriceID}
@@ -643,7 +643,7 @@ export default function PriceManagement() {
 
             {/* Pagination */}
             {totalPages >= 1 && (
-              <div className="bg-white dark:bg-gray-800 px-6 py-4 border-t border-gray-200 dark:border-gray-700">
+              <div className="bg-white dark:bg-gray-700 px-6 py-4 border-t border-gray-200 dark:border-gray-700">
                 <div className="flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
                   <p className="text-sm text-gray-700 dark:text-gray-300 font-khmer-content">
                     បានបង្ហាញ {currentPrices.length} នៃ {filteredPrices.length}{" "}

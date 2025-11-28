@@ -134,7 +134,7 @@ export default function Home() {
               {latestPrices.map((price) => (
                 <div
                   key={price.PriceID}
-                  className="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow p-6"
+                  className="bg-white dark:bg-gray-700 rounded-lg shadow-md hover:shadow-lg transition-shadow p-6"
                 >
                   <div className="flex justify-between items-start mb-3">
                     <h3 className="font-semibold text-gray-900 dark:text-white">
@@ -175,7 +175,7 @@ export default function Home() {
             លក្ខណៈពិសេស
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow p-6">
+            <div className="text-center bg-white dark:bg-gray-700 rounded-lg shadow-md hover:shadow-lg transition-shadow p-6">
               <div className="bg-green-100 dark:bg-green-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg
                   className="w-8 h-8 text-green-600 dark:text-green-400"
@@ -196,7 +196,7 @@ export default function Home() {
                 ទិន្នន័យតម្លៃផលិតផលត្រូវបានអាប់ដេតជារៀងរាល់ថ្ងៃ
               </p>
             </div>
-            <div className="text-center bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow p-6">
+            <div className="text-center bg-white dark:bg-gray-700 rounded-lg shadow-md hover:shadow-lg transition-shadow p-6">
               <div className="bg-blue-100 dark:bg-blue-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg
                   className="w-8 h-8 text-blue-600 dark:text-blue-400"
@@ -217,7 +217,7 @@ export default function Home() {
                 តាមដានតម្លៃពីទីផ្សារជាច្រើននៅទូទាំងប្រទេស
               </p>
             </div>
-            <div className="text-center bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow p-6">
+            <div className="text-center bg-white dark:bg-gray-700 rounded-lg shadow-md hover:shadow-lg transition-shadow p-6">
               <div className="bg-orange-100 dark:bg-orange-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg
                   className="w-8 h-8 text-orange-600 dark:text-orange-400"

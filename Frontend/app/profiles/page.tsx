@@ -82,7 +82,7 @@ export default function ProfilePage() {
           <div className="space-y-3">
             <button
               onClick={() => router.push("/edit-profile")}
-              className="w-full flex items-center justify-center p-4 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl hover:bg-gray-50 dark:hover:bg-gray-750 transition-colors group"
+              className="w-full mt-5 flex items-center justify-center p-4 bg-white dark:bg-gray-700 border border-gray-200 dark:border-gray-700 rounded-xl hover:bg-gray-50 dark:hover:bg-gray-750 transition-colors group"
             >
               <Edit className="w-5 h-5 text-gray-600 dark:text-gray-400 mr-3 group-hover:text-green-600" />
               <span className="font-khmer-content text-gray-700 dark:text-gray-200 font-medium">
@@ -96,7 +96,7 @@ export default function ProfilePage() {
                 localStorage.removeItem("user");
                 router.push("/login");
               }}
-              className="w-full flex items-center justify-center p-4 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl hover:bg-red-50 dark:hover:bg-red-900/20 transition-colors group"
+              className="w-full flex mt-5 items-center justify-center p-4 bg-white dark:bg-gray-700 border border-gray-200 dark:border-gray-700 rounded-xl hover:bg-red-50 dark:hover:bg-red-900/20 transition-colors group"
             >
               <LogOut className="w-5 h-5 text-gray-600 dark:text-gray-400 mr-3 group-hover:text-red-600" />
               <span className="font-khmer-content text-gray-700 dark:text-gray-200 font-medium">

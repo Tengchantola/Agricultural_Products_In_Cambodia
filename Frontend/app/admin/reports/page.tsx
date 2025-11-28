@@ -177,7 +177,7 @@ export default function ReportsPage() {
   const CustomTooltip = ({ active, payload, label }: any) => {
     if (active && payload && payload.length) {
       return (
-        <div className="bg-white dark:bg-gray-800 p-3 border border-gray-300 dark:border-gray-600 rounded-lg shadow-lg">
+        <div className="bg-white dark:bg-gray-700 p-3 border border-gray-300 dark:border-gray-600 rounded-lg shadow-lg">
           <p className="font-semibold text-gray-900 dark:text-white font-khmer-content">
             {label}
           </p>
@@ -198,7 +198,7 @@ export default function ReportsPage() {
   const CustomPieTooltip = ({ active, payload }: any) => {
     if (active && payload && payload.length) {
       return (
-        <div className="bg-white dark:bg-gray-800 p-3 border border-gray-300 dark:border-gray-600 rounded-lg shadow-lg">
+        <div className="bg-white dark:bg-gray-700 p-3 border border-gray-300 dark:border-gray-600 rounded-lg shadow-lg">
           <p className="font-semibold text-gray-900 dark:text-white font-khmer-content">
             {payload[0].name}
           </p>
@@ -279,7 +279,7 @@ export default function ReportsPage() {
       )}
 
       {/* Filters */}
-      <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6 mb-6">
+      <div className="bg-white dark:bg-gray-700 rounded-lg shadow p-6 mb-6">
         <div className="flex items-center mb-4">
           <Filter className="w-5 h-5 text-gray-500 mr-2" />
           <h3 className="text-lg font-semibold text-gray-900 dark:text-white font-khmer-heading">
@@ -360,7 +360,7 @@ export default function ReportsPage() {
         <div className="space-y-6">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* ... Your existing stat cards remain the same ... */}
-            <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+            <div className="bg-white dark:bg-gray-700 rounded-lg shadow p-6">
               <div className="flex items-center">
                 <div className="p-3 bg-blue-100 dark:bg-blue-900 rounded-lg">
                   <Package className="w-6 h-6 text-blue-600 dark:text-blue-400" />
@@ -376,7 +376,7 @@ export default function ReportsPage() {
               </div>
             </div>
 
-            <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+            <div className="bg-white dark:bg-gray-700 rounded-lg shadow p-6">
               <div className="flex items-center">
                 <div className="p-3 bg-green-100 dark:bg-green-900 rounded-lg">
                   <Building2 className="w-6 h-6 text-green-600 dark:text-green-400" />
@@ -392,7 +392,7 @@ export default function ReportsPage() {
               </div>
             </div>
 
-            <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+            <div className="bg-white dark:bg-gray-700 rounded-lg shadow p-6">
               <div className="flex items-center">
                 <div className="p-3 bg-orange-100 dark:bg-orange-900 rounded-lg">
                   <TrendingUp className="w-6 h-6 text-orange-600 dark:text-orange-400" />
@@ -408,7 +408,7 @@ export default function ReportsPage() {
               </div>
             </div>
 
-            <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+            <div className="bg-white dark:bg-gray-700 rounded-lg shadow p-6">
               <div className="flex items-center">
                 <div className="p-3 bg-purple-100 dark:bg-purple-900 rounded-lg">
                   <Calendar className="w-6 h-6 text-purple-600 dark:text-purple-400" />
@@ -428,7 +428,7 @@ export default function ReportsPage() {
           {/* Charts Row */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             {/* Price Trends Chart */}
-            <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+            <div className="bg-white dark:bg-gray-700 rounded-lg shadow p-6">
               <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 font-khmer-heading">
                 តម្លៃមធ្យមប្រចាំថ្ងៃ
               </h3>
@@ -464,7 +464,7 @@ export default function ReportsPage() {
             </div>
 
             {/* Category Distribution */}
-            <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+            <div className="bg-white dark:bg-gray-700 rounded-lg shadow p-6">
               <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 font-khmer-heading">
                 ការចែកចាយតាមប្រភេទ
               </h3>
@@ -499,7 +499,7 @@ export default function ReportsPage() {
             </div>
           </div>
 
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+          <div className="bg-white dark:bg-gray-700 rounded-lg shadow p-6">
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 font-khmer-heading">
               តម្លៃមធ្យមតាមទីផ្សារ
             </h3>
@@ -527,7 +527,7 @@ export default function ReportsPage() {
                       if (active && payload && payload.length) {
                         const data = payload[0].payload;
                         return (
-                          <div className="bg-white dark:bg-gray-800 p-3 border border-gray-300 dark:border-gray-600 rounded-lg shadow-lg">
+                          <div className="bg-white dark:bg-gray-700 p-3 border border-gray-300 dark:border-gray-600 rounded-lg shadow-lg">
                             <p className="font-semibold text-gray-900 dark:text-white font-khmer-content">
                               {data.fullName}
                             </p>
@@ -554,7 +554,7 @@ export default function ReportsPage() {
             </div>
           </div>
 
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+          <div className="bg-white dark:bg-gray-700 rounded-lg shadow p-6">
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 font-khmer-heading">
               សកម្មភាពថ្មីៗ
             </h3>

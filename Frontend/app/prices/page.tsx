@@ -86,7 +86,7 @@ export default function PricesPage() {
 
         {/* Stats Cards */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6 text-center">
+          <div className="bg-white dark:bg-gray-700 rounded-lg shadow p-6 text-center">
             <div className="text-lg text-gray-600 dark:text-gray-400 font-khmer-content">
               ចំនួនតម្លៃសរុប
             </div>
@@ -94,7 +94,7 @@ export default function PricesPage() {
               {formatPrice(`${totalPrice}`)}
             </div>
           </div>
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6 text-center">
+          <div className="bg-white dark:bg-gray-700 rounded-lg shadow p-6 text-center">
             <div className="text-lg text-gray-600 dark:text-gray-400 font-khmer-content">
               ប្រភេទផលិតផល
             </div>
@@ -102,7 +102,7 @@ export default function PricesPage() {
               {new Set(prices.map((p) => p.Product)).size}
             </div>
           </div>
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6 text-center">
+          <div className="bg-white dark:bg-gray-700 rounded-lg shadow p-6 text-center">
             <div className="text-lg text-gray-600 dark:text-gray-400 font-khmer-content">
               ចំនួនទីផ្សារ
             </div>
@@ -110,7 +110,7 @@ export default function PricesPage() {
               {markets.length}
             </div>
           </div>
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6 text-center">
+          <div className="bg-white dark:bg-gray-700 rounded-lg shadow p-6 text-center">
             <div className="text-sm text-gray-600 dark:text-gray-400 font-khmer-content">
               អាប់ដេតចុងក្រោយ
             </div>
@@ -121,7 +121,7 @@ export default function PricesPage() {
         </div>
 
         {/* Filters */}
-        <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6 mb-8">
+        <div className="bg-white dark:bg-gray-700 rounded-lg shadow p-6 mb-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {/* Search */}
             <div>
@@ -185,7 +185,7 @@ export default function PricesPage() {
         </div>
 
         {/* Prices Table */}
-        <div className="bg-white dark:bg-gray-800 rounded-lg shadow overflow-hidden">
+        <div className="bg-white dark:bg-gray-700 rounded-lg shadow overflow-hidden">
           {error ? (
             <div className="text-center py-12">
               <div className="text-red-500 text-xl mb-4">⚠️</div>
@@ -230,7 +230,7 @@ export default function PricesPage() {
                     </th>
                   </tr>
                 </thead>
-                <tbody className="bg-white dark:bg-gray-800 divide-y divide-gray-200 dark:divide-gray-700">
+                <tbody className="bg-white dark:bg-gray-700 divide-y divide-gray-200 dark:divide-gray-700">
                   {filteredPrices.map((price, index) => (
                     <tr
                       key={price.PriceID}
