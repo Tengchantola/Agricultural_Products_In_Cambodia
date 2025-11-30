@@ -12,7 +12,6 @@ import {
   PlusCircle,
   RefreshCw,
   CircleDollarSign,
-  Plus,
 } from "lucide-react";
 import { formatPrice } from "../utils/formatPrice";
 import Loading from "../components/admin/Loading";
@@ -151,7 +150,7 @@ export default function AdminDashboard() {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        <div className="bg-white dark:bg-gray-800 rounded-lg shadow">
+        <div className="bg-white dark:bg-gray-700 rounded-lg shadow">
           <div className="p-6 border-b border-gray-200 dark:border-gray-700">
             <h2 className="text-lg font-semibold text-gray-900 dark:text-white font-khmer-heading">
               តម្លៃថ្មីៗ
@@ -189,7 +188,7 @@ export default function AdminDashboard() {
           </div>
         </div>
 
-        <div className="bg-white dark:bg-gray-800 rounded-lg shadow">
+        <div className="bg-white dark:bg-gray-700 rounded-lg shadow">
           <div className="p-6 border-b border-gray-200 dark:border-gray-700">
             <h2 className="text-lg font-semibold text-gray-900 dark:text-white font-khmer-heading">
               សកម្មភាពរហ័ស
@@ -234,7 +233,7 @@ export default function AdminDashboard() {
         </div>
       </div>
 
-      <div className="mt-6 bg-white dark:bg-gray-800 rounded-lg shadow">
+      <div className="mt-6 bg-white dark:bg-gray-700 rounded-lg shadow">
         <div className="p-6 border-b border-gray-200 dark:border-gray-700">
           <h2 className="text-lg font-semibold text-gray-900 dark:text-white font-khmer-heading">
             ស្ថានភាពប្រព័ន្ធ
